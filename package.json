@@ -1,0 +1,16 @@
+{
+  "name": "jwt-proxy",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "dependencies": {
+    "http-proxy": "^1.16.2",
+    "jsonwebtoken": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
