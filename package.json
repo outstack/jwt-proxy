@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/server.js",
   "dependencies": {
+    "ajv": "^6.10.2",
     "http-proxy": "^1.16.2",
     "jsonwebtoken": "^8.2.0"
   },

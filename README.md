@@ -17,3 +17,9 @@ It's written in NodeJS, using [node-http-proxy](https://github.com/nodejitsu/nod
         -e ALLOW_ANONYMOUS=1 \
         outstack/jwt-proxy
 
+## Custom token requirements
+
+You can impose other requirements on tokens, such as requiring a certain scope, by passing in a json schema. For
+example, to require a certain scope be present in a `scopes` claim:
+
+    -e JWT_VALIDATE_JSON_SCHEMA='{"type": "object", "required": ["scopes"], "properties": { "scopes": { "type": "array", "contains": {"const": "the_required_scope" }}}}'
