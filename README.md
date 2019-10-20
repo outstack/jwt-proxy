@@ -12,7 +12,8 @@ It's written in NodeJS, using [node-http-proxy](https://github.com/nodejitsu/nod
         -e LISTEN_PORT=8989 \
         -p 8989:8989 \
         -e JWT_PUBLIC_KEY="-----BEGIN CERTIFICATE-----\nMIID ... 8RujynGaw==\n-----END CERTIFICATE-----" \
-        -e JWT_ISSUER="https://jwt-server.example.com/" -e JWT_AUDIENCE="https://your-api.example.com" \
+        -e JWT_ISSUER="https://jwt-server.example.com/" \
+        -e JWT_AUDIENCE="https://your-api.example.com" \
         -e ALLOW_ANONYMOUS=1 \
         outstack/jwt-proxy
 
