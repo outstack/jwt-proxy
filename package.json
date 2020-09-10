@@ -5,7 +5,7 @@
   "main": "src/server.js",
   "dependencies": {
     "ajv": "^6.10.2",
-    "http-proxy": "^1.16.2",
+    "http-proxy": "^1.18.1",
     "jsonwebtoken": "^8.2.0"
   },
   "devDependencies": {},
