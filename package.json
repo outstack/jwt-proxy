@@ -6,7 +6,7 @@
   "dependencies": {
     "ajv": "^6.10.2",
     "http-proxy": "^1.16.2",
-    "jsonwebtoken": "^8.2.0"
+    "jsonwebtoken": "^9.0.0"
   },
   "devDependencies": {},
   "scripts": {
